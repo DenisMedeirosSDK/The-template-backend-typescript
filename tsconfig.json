@@ -22,6 +22,9 @@
     "@modules/*":["modules/*"],
     "@config/*":["config/*"],
     "@shared/*":["shared/*"]
-  }
-}
+  },
+},
+"include": [
+  "src/**/*"
+]
 }
