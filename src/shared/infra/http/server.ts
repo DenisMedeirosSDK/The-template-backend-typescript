@@ -7,5 +7,5 @@ server.use(express.json())
 server.use(routes)
 
 server.listen(3333, () => {
-  console.log('Start server development, listen port 3333')
+  console.log('Start server development, listening port 3333')
 })
