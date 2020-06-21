@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node dist/server.js",
-    "server:dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpilOnly --ignore-watch node_modules src/shared/infra/http/server.ts"
+    "server:dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpileOnly --ignore-watch node_modules src/shared/infra/http/server.ts"
   },
   "dependencies": {
     "express": "^4.17.1"
